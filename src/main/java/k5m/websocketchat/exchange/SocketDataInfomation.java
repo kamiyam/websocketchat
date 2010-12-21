@@ -1,6 +1,5 @@
 package k5m.websocketchat.exchange;
 
-import java.util.Date;
 
 public class SocketDataInfomation 
 {

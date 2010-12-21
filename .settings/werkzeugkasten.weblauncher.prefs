@@ -1,0 +1,6 @@
+#Wed Dec 01 14:17:12 JST 2010
+baseDir=/websocketchat/target/websocket-0.0.1
+checkServer=true
+contextName=/websocketchat
+eclipse.preferences.version=1
+webType=Jetty7.2
