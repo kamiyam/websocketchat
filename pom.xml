@@ -6,11 +6,11 @@
   <version>0.0.1</version>
    <repositories>
     <repository>
-      <id>inhouse.Repository</id>
-      <name>InHouse Repository</name>
-      <url>dav:http://omega/maven</url>
+      <id>k5m.Repository</id>
+      <name>Kamiyam Repository</name>
+      <url>dav:http://210.134.56.98/maven</url>
     </repository>
-   </repositories>
+  </repositories>
   <build>
   	<plugins>
   		<plugin>
@@ -73,7 +73,7 @@
 	<dependency>
 	    <groupId>net.arnx</groupId>
 		<artifactId>jsonic</artifactId>
-		<version>1.2.4</version>
+		<version>1.2.5</version>
     </dependency>
   </dependencies>
 </project>

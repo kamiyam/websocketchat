@@ -9,21 +9,25 @@
     <servlet-class>k5m.websocketchat.WebSocketChatServlet</servlet-class>
     </servlet>
     
+    <!-- 
     <servlet>
     <servlet-name>DbConnectServlet</servlet-name>
     <servlet-class>k5m.websocketchat.DbConnectServlet</servlet-class>
     </servlet>
+    -->
     
-    <servlet-mapping>
-    <servlet-name>DbConnectServlet</servlet-name>
-    <url-pattern>/db/*</url-pattern>
-    </servlet-mapping>
- 
     <servlet-mapping>
     <servlet-name>WebSocketServlet</servlet-name>
     <url-pattern>/ws/*</url-pattern>
     </servlet-mapping>
     
+    <!-- 
+    <servlet-mapping>
+    <servlet-name>DbConnectServlet</servlet-name>
+    <url-pattern>/db/*</url-pattern>
+    </servlet-mapping>
+    -->
+     
     <resource-ref>
       <description>postgreSQL Datasource example</description>
       <res-ref-name>jdbc/myds</res-ref-name>

@@ -15,7 +15,6 @@ public class SocketDataExchange
 
 	public String exchange( String data )
 	{
-		String val = Sanitizer.htmlSanitize( data );
         Date date = new Date(); 
         SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy/MM/dd/HH:mm:ss");
         String dateStr = sdf1.format( date );
@@ -23,7 +22,7 @@ public class SocketDataExchange
 		SocketDataInfomation info = null;
 		try
 		{
-			info = JSON.decode( val, SocketDataInfomation.class );
+			info = JSON.decode( data, SocketDataInfomation.class );
 		}
 		catch ( JSONException e )
 		{
@@ -36,7 +35,7 @@ public class SocketDataExchange
 		}
 
 		info.date = dateStr;
-		
+
 		return JSON.encode( info );
 	}
 
