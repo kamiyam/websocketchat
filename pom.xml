@@ -8,7 +8,7 @@
     <repository>
       <id>k5m.Repository</id>
       <name>Kamiyam Repository</name>
-      <url>dav:http://210.134.56.98/maven</url>
+      <url>dav:http://101.143.234.96:8080/maven</url>
     </repository>
   </repositories>
   <build>
